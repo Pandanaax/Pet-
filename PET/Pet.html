@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pet Store</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="PetStyle.css" />
+    <script src="jquery-v3.5.min.js" defer></script>
+    <script src="Pet.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="Semantic/semantic.min.css"> 
+
+  </head>
+  <body>
+      
+    <h1>Animaux à adopter</h1>
+    <marg></marg>
+    <marg></marg>
+    <marg></marg>
+    <p>Bienvenue,</p>
+    <p>Venez découvrir les animaux de nos refuges 
+    <p>et permettez à l'un d'entre eux d'être adopté 
+    <p>et de passer le reste de sa vie dans une famille bienveillante !</p>  
+    <section>
+      <div class="cardContainer" id="animalCards"> </div>
+      <p>Vous avez fait votre choix ?</p>
+      <p>Veuillez nous contacter uniquement par mail : </p>
+      <!-- formulaire & mail -->
+      <form>
+        <div class="emailBox">
+          <label for="emailAddress">Votre adresse email</label><br>
+          <input id="emailAddress" type="email" size="64" maxLength="64" required>
+        </div>
+       
+        <div class="messageBox">
+          <label for="message">Requête</label><br>
+          <textarea id="message" cols="80" rows="8" required></textarea>
+        </div>
+         <input type="submit" value="Envoyer :)">
+       </form>
+
+
+
+    </section>
+
+    <h1>Notre belle équipe</h1>
+    <div></div>
+    <section id= "adresse">
+      <div class="ui card">
+        <div class="contentDesc">
+          <div class="description">
+            <p>Nous sommes situé à Montpellier : 50 Avenue Agropolis, 34090 Montpellier</p>
+            <p>La Fondation Assistance aux Animaux ne pratique pas l’euthanasie de convenance.</p> 
+            <p>En venant adopter dans une de nos structures, vous faites donc deux bonnes actions :</p> 
+            <p>Le bonheur d’un animal qui va pouvoir libérer une place pour un autre dans le besoin.</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="refuge">
+        <div>
+          <img class="selected" src="https://www.annonceschatons.fr/wp-content/uploads/2017/07/comment-adopter-un-chien-en-refuge.jpg" />
+        </div>
+        <div>
+          <img src="https://www.sb.k12.tr/wp-content/uploads/2017/03/Logo-refuge-animaux-mars-2017-BIG.jpg" />
+        </div>
+        <div>
+          <img src="http://lesvoyagesduparisienheureux.fr/wp-content/uploads/2016/12/chiots-refuge-animaux-santorin.jpg" />
+        </div>
+        <div>
+          <img src="https://d14zpui1wqy4zl.cloudfront.net/production/illustrations/1695/medium/adt078.jpg?1388421615" />
+        </div>
+        <div>
+          <img src="https://ynubis.com/upload/vac-refuge-de-l-amour-chat-et-chien.jpg_ynubis_gCT54rK5.jpg" />
+        </div>
+        <div>
+          <img src="https://www.realahune.fr/wp-content/uploads/2016/05/apar.jpg" />
+        </div>
+        <div>
+          <img src="https://static4.pagesjaunes.fr/media/cviv/07174828_N_0001_photo.jpg" />
+        </div>
+      </div>
+      <button id="reset">Remise à zero</button>
+      <button id="beforePicture">Précédent</button>
+    </section>
+
+  </body>
+</html>

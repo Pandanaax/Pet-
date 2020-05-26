@@ -1,0 +1,83 @@
+body {
+    font-family: sans-serif;
+    background:  rgb(242,242,225	) !important;
+    margin: 0 !important;
+}
+
+p {
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    
+}
+
+#adresse {
+    color: darkblue;
+}
+
+h1, h2 {
+    color: rgb(139, 139, 227);
+}
+
+.refuge {
+    display: flex;
+    height: 300px;
+    align-items: center;
+
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+}
+
+.refuge > div {
+    height: 100%;
+}
+
+.refuge img {
+    height: 100%;
+}
+
+label {
+    color: rgb(88, 76, 3);
+}
+button {
+    font-size: 24px;
+    background-color: rgb(255, 255, 255);
+    padding: 14px 40px;
+    margin: 35px;
+}
+
+.picture{
+    box-shadow: 10px 10px;
+}
+  
+.cardContainer{
+  padding-right: 100px !important;
+  margin-bottom: 50px;
+}
+  
+.zoom {
+  padding: 50px;
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+}
+
+#contentDesc > p {
+    color : rgb(242,242,225)	;
+}
+
+.description {
+    background-color: rgb(242,242,225) !important;
+    border-radius: 0%;
+}
+
+/* #animalCards{
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle }
+} */
